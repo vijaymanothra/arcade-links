@@ -12,7 +12,7 @@ Short, permanent links for the printed QR codes. Each link forwards to wherever 
 1. Open `links.js` and change the address next to `play` or `scores`. Use the full address, e.g. `'https://arcade.example.com/'`.
 2. Commit and push. GitHub Pages updates within about 10 minutes.
 
-Leave an address empty (`''`) to show the "Coming soon" page instead.
+Leave an address empty (`''`) to show the "Coming soon" page instead. A "Coming soon" page that is already open checks again every minute, so people who scanned early are moved on automatically once the address is set.
 
 ## Counting scans
 
